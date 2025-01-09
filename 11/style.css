@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+.body-one {
+  height: 100vh;
+  background-image: url("https://cambodiatravel.com/images/2020/10/Khmer-wedding22.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.body-two {
+  height: 100vh;
+  background-image: url("https://askacambodian.net/wp-content/uploads/2015/06/untitled5-e1434611298435.png?w=640");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.body-three {
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/a3/14/11/a31411b279bb22eb4bc12e85c4ea7188.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #495057;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #adb5bd;
+  color: black;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  width: 300px;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #343a40;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.container-two {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tier {
+  width: 80%;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tier h2 {
+  text-align: center;
+  color: #333;
+}
+
+.tier ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tier ul li {
+  margin: 10px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.arrows {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 24px;
+  color: #999;
+}
